@@ -6,6 +6,9 @@ jobs:
     my1stjob:
         runs-on: ubuntu-latest
         steps:
+        - name: checkout to read repo file
+          uses: actions/checkout@v4
+          
         - name: welcome msz
           run: echo "my first gh action job"
 
@@ -13,6 +16,5 @@ jobs:
           run: ls
         - name: read file
           run: cat README.md
-        - name: checkout to read repo file
-          uses: actions/checkout@v4
+        
 

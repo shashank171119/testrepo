@@ -1,0 +1,14 @@
+name: my first workflow
+on: push
+jobs:
+    my1stjob:
+        runs-on: ubantu-latest
+        steps:
+        - name: welcome msz
+          run: echo "my first gh action job"
+
+        - name: list files
+          run: ls
+        - name: read file
+          run: cat README.md
+

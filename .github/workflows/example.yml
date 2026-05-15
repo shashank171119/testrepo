@@ -13,4 +13,6 @@ jobs:
           run: ls
         - name: read file
           run: cat README.md
+        - name: checkout to read repo file
+          uses: actions/checkout@v4
 

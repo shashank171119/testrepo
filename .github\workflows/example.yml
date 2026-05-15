@@ -1,5 +1,7 @@
 name: my first workflow
+
 on: push
+
 jobs:
     my1stjob:
         runs-on: ubantu-latest

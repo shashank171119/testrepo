@@ -4,7 +4,7 @@ on: push
 
 jobs:
     my1stjob:
-        runs-on: ubantu-latest
+        runs-on: ubuntu-latest
         steps:
         - name: welcome msz
           run: echo "my first gh action job"
